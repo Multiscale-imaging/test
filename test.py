@@ -19,7 +19,7 @@ plt.pause(1)
 plt.draw()
 
 
-for ii in range(100):
+for ii in range(10):
     for jj in range(10):
         HIO.HIO_one_iteration(beta)
         ER.ER_one_iteration()
